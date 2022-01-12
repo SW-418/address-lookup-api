@@ -1,0 +1,28 @@
+{
+  "name": "address-lookup-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run clean && tsc && node ./app/app.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "clean": "rm -rf app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.0",
+    "@types/supertest": "^2.0.11",
+    "jest": "^27.4.7",
+    "supertest": "^6.2.1",
+    "ts-jest": "^27.1.2"
+  }
+}
